@@ -1,0 +1,39 @@
+<title>Bai 4</title>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gửi lời mời tham gia sự kiện</title>
+  <style>
+    button {
+        background-color: rgb(77, 153, 235);
+            border: none;
+            color: rgb(225, 225, 225);
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 6px 4px;
+            cursor: pointer;
+    }
+    button:hover {
+      background-color: #3da1fe;
+    }
+    body {background-color: #dedcdc;}
+  </style>
+</head>
+<body style="margin: 150px;">
+    <div style="border: 1px solid black; padding: 5px; text-align: center;">
+        <img src="https://cdn-icons-png.flaticon.com/128/1383/1383264.png" width="50" height="50">
+        <h1>Gửi lời mời tham gia sự kiện</h1>
+        <p> Hãy nhập email người mà bạn muốn gửi lời mời </p>
+        <form action="submit.php" method="post">
+            <label for="email"> </label>
+            <input placeholder="Enter Email" id="email" name="email" required>
+        </form>
+        <button>Gửi lời mời !</button>
+    </div>
+</body>
+</html>
